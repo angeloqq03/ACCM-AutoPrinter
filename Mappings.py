@@ -1,14 +1,20 @@
 SourceCode = {
     "L1": (400, 900),
     "L2": (500, 900),
-    "L3": (750, 900),
+    "L3": (730, 900),
     "L4": (850, 900),
-    "L5": (1050, 900),
+    "L5": (1070, 900),
     "L6": (1200, 900),
     "L7": (1300, 900),
-    "L8": (1440, 900),
+    "L8": (1420, 900),
+    "L9": (1650, 900),
+    "L10": (1750, 900),
+    "L11": (1875, 900),
+    "L12": (2100, 900),
+    "L13": (2225, 900),
+    "L14": (2325, 900),
+    "L15": (2450, 900),
 }
-
 FirstName = {
     "L1": (380, 1275),
     "L2": (480, 1275),
@@ -33,7 +39,6 @@ FirstName = {
     "L21": (2400, 1275),
     "L22": (2500, 1275),
 }   
-
 MiddleName = {
     "L1": (380, 1435),
     "L2": (480, 1435),
@@ -58,7 +63,6 @@ MiddleName = {
     "L21": (2380, 1435),
     "L22": (2480, 1435),
 }
-
 LastName = {
     "L1": (380, 1610),
     "L2": (480, 1610),
@@ -83,105 +87,197 @@ LastName = {
     "L21": (2380, 1610),
     "L22": (2480, 1610),
 }
+# Date Of birth row 6
 MmDdYyyy = {
     "L1": (350, 1780),
-    "L2": (400, 1780),
-    "L3": (460, 1780),
-    "L4": (490, 1780),
-    "L5": (550, 1780),
-    "L6": (600, 1780),
-    "L7": (650, 1780),
-    "L8": (700, 1780),
+    "L2": (500, 1780),
+    "L3": (600, 1780),
+    "L4": (650, 1780),
+    "L5": (700, 1780),
+    "L6": (750, 1780),
 }
-PlaceOfBirth = {
-}
-
-MotherFullname = {
-
-}
-
-Gender = {
-    
-}
-
-CivilStatus = {
-
-}
-
-DependantsNo = {
-
-}
-
+# POB row 7
+PlaceOfBirth = {"L1": (800, 1780)}
+MotherFirstName= {"L1": (1250, 1780)}
+MotherMiddleName = {"L1" : (1700, 1780)}
+MotherLastName = {"L1" : (2150, 1780)}
+GenderFemale = {"L1" : (350, 2050)}
+GenderMale = {"L1" : (350, 1975)}
+CivilStatusSingle = {"L1" : (825, 1975)}
+CivilStatusWidowed = {"L1" : (1300, 1975)}
+CivilStatusMarried = {"L1" : (825, 2000)}
+CivilStatusSeperated = {"L1" : (1300, 2000)}
+DependantsNo = {"L1" : (350, 2200)}
 Education = {
 
 }
-
 Citizenship = {
  
 }
-
 Tin = {
 
 }
-
 Sss_Gsis = {
 
 }
-
 PresentHomeAdd = {
 
 }
-
 PermanentHomeAdd = {
 
 }
-
 HomeOwnership = {
 
 }
-
 YearsOfStay = {
 
 }
-
 CarsOwned = {
 
 }
-
 PersonalEmail = {
 
 }
-
 HomePhone1 = {
 
 }
-
 HomePhone2 = {
 
 }
-
 MobilePhone1 = {
 
 }
-
 MobilePhone2 = {
 
 }
-
 BestTimeToCall ={
 
 }
+SpouseFirstName ={
 
-FbUsernameAdd = {
+}
+SpouseMiddlename ={
+
+}
+SpouseLastName = {
+
+}
+SpouseCompanyBusinessName = {
+
+}
+SpousePosition = {
+
+}
+BusinessAddSpouse = {
+
+}
+BusinessPhoneSpouse = {
+
+}
+MobilePhoneSpouse = {
+
+}
+HomePhoneSpouse = {
+
+}
+AnnualIncome = {
+
+}
+SpouseDirectorOrConnectedToEastWest = {
 
 }
 
-InstaUsernameAdd = {
+SpouseDirectorOrConnectedToFinlinvest = { 
 
 }
+Employment = {
 
-TwitterUsernameAdd = {
+}
+YearsOfEmploymentOrBusinessPresent = {
 
+}
+TotalYearsOfWorking = {
 
+}
+Position = {
 
+}
+PositionTitle = {
+ 
+}
+Occupation = {
+
+}
+CompanyOrBusinessName = {
+}
+BusinessAddress = {
+}
+BusinessPhone = {
+}
+HrEmail = {
+}
+GrossAnnualIncome = {
+}
+SourceOfFunds = {
+}
+IsExistingClientOfEastWest = {
+}
+IfYes = {
+}
+IsExistingEWCreditCardHolder = {
+}
+isPEP = {
+}
+OtherLoans = {
+}
+CardIssuer = {
+}
+CardNumber = {
+}
+MemberSince = {
+}
+CreditLimit = {
+}
+Ref1FullName = {
+}
+Ref1CompanyOrBusinessName = {
+}
+Ref1CompBusinessAdd = {
+}
+Ref1BusinessPhone = {
+}
+Ref1HomePhone = {
+}
+Ref1MobilePhone = {
+}
+Ref2FullName = {
+}
+Ref2CompanyOrBusinessName = {
+}
+Ref2CompBusinessAdd = {
+}
+Ref2BusinessPhone = {
+}
+Ref2HomePhone = {
+}
+Ref2MobilePhone = {
+}
+DesiredLoanAmount = {
+}
+PreferedPaymentTenor = {
+}
+IfEWCannotProcess = {
+
+}
+ModeOfPayment = {
+}
+ReleaseOfLoanProceeds = {
+}
+
+Signature = {
+    "L1" : (400, 8150)
+}
+
+RightSign = {
+    "R1" : ()
 }

@@ -31,18 +31,16 @@ class LegalFormApp:
         self.paper_height = 13.0
         self.printer_dpi = 344
 
-        # Use imported mappings
         self.SourceCode = SourceCode
         self.FirstName = FirstName
         self.MiddleName = MiddleName
         self.LastName = LastName
 
-        # Google Sheets setup
         self.GoogleSheetID = "1BPRsZfaz7CZk9J59FVxb6N7EWBkgYtliSsVvXSt8eQk"
         self.SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
         self.SERVICE_ACCOUNT_FILE = 'organic.json'
 
-        # Default values
+        
         self.plotFirstName = "OSCAR"
         self.plotMiddleName = "COLLINS"
         self.plotLastName = "RIVERA"

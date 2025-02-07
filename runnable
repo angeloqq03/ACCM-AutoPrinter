@@ -1,1 +1,1 @@
-pyinstaller --clean --add-data "organic.json;." --add-data "download.png;." --hidden-import "PIL.\_tkinter_finder" --hidden-import "google.auth.transport.requests" --hidden-import "google.oauth2.credentials" --noconsole B.py
+pyinstaller --clean --add-data "organic.json;." --add-data "front_page.png;." --hidden-import "PIL.\_tkinter_finder" --hidden-import "google.auth.transport.requests" --hidden-import "google.oauth2.credentials" --noconsole B.py
