@@ -107,135 +107,72 @@ CivilStatusSingle = {"L1" : (825, 1975)}
 CivilStatusWidowed = {"L1" : (1300, 1975)}
 CivilStatusMarried = {"L1" : (825, 2000)}
 CivilStatusSeperated = {"L1" : (1300, 2000)}
-DependantsNo = {"L1" : (350, 2200)}
-Education = {
-
-}
-Citizenship = {
- 
-}
-Tin = {
-
-}
-Sss_Gsis = {
-
-}
-PresentHomeAdd = {
-
-}
-PermanentHomeAdd = {
-
-}
-HomeOwnership = {
-
-}
-YearsOfStay = {
-
-}
-CarsOwned = {
-
-}
-PersonalEmail = {
-
-}
-HomePhone1 = {
-
-}
-HomePhone2 = {
-
-}
-MobilePhone1 = {
-
-}
-MobilePhone2 = {
-
-}
-BestTimeToCall ={
-
-}
-SpouseFirstName ={
-
-}
-SpouseMiddlename ={
-
-}
-SpouseLastName = {
-
-}
-SpouseCompanyBusinessName = {
-
-}
-SpousePosition = {
-
-}
-BusinessAddSpouse = {
-
-}
-BusinessPhoneSpouse = {
-
-}
-MobilePhoneSpouse = {
-
-}
-HomePhoneSpouse = {
-
-}
-AnnualIncome = {
-
-}
-SpouseDirectorOrConnectedToEastWest = {
-
-}
-
-SpouseDirectorOrConnectedToFinlinvest = { 
-
-}
-Employment = {
-
-}
-YearsOfEmploymentOrBusinessPresent = {
-
-}
-TotalYearsOfWorking = {
-
-}
-Position = {
-
-}
-PositionTitle = {
- 
-}
-Occupation = {
-
-}
-CompanyOrBusinessName = {
-}
-BusinessAddress = {
-}
-BusinessPhone = {
-}
-HrEmail = {
-}
-GrossAnnualIncome = {
-}
-SourceOfFunds = {
-}
-IsExistingClientOfEastWest = {
-}
-IfYes = {
-}
-IsExistingEWCreditCardHolder = {
-}
-isPEP = {
-}
-OtherLoans = {
-}
-CardIssuer = {
-}
-CardNumber = {
-}
-MemberSince = {
-}
+DependantsNo = {"L1" : (2040, 2050)}    
+EducationHS = {"L1" : (350, 2200)}
+EducationCollege = {"L1" : (350, 2275)}
+EducationPostGrad = {"L1" : (825, 2275)}
+CitizenshipFilipino = {"L1" : (1500, 2200)}
+CitizenshipOthers = {"L1" : (1500, 2275)}
+CitizenshipOthersPlaceholder = {"L1" : (1980, 2200)}
+CitizenShipAcrNo = {"L1" : (1980, 2275)}
+Tin = {"L1" : (400, 2450)}
+Sss_Gsis = {"L1" : (1500, 2450)}
+PresentHomeAddLine1 = {"L1" : (450, 2600)}
+PresentHomeAddLine2 = {"L1" : (450, 2700)}
+PermanentHomeAddLine1 = {"L1" : (450, 2880)}
+PermanentHomeAddLine2 = {"L1" : (450, 3000)}
+HomeOwnershipOwnedNotMortgaged = {"L1" : (350, 3250)}
+HomeOwnershipCompany = {"L1" : (960, 3165)}
+HomeOwnershipWithParents = {"L1" : (3165, 960)}
+YearsOfStay = {"L1" : (2350, 3250)}
+CarsOwned = {"L1" : (400, 3400)}
+PersonalEmail = {"L1" : (950, 3400)}
+HomePhone1 = { "L1" : (2050, 3440)}
+HomePhone2 = { "L1" : (350, 3600)}
+MobilePhone1 = { "L1" : (950, 3600)}
+MobilePhone2 = { "L1" : (1500, 3600)}
+BestTimeToCall ={"L1" : (2100, 3620)}
+SpouseFirstName ={ "L1" : (450, 4080)}
+SpouseMiddlename ={"L1" : (1150, 4080)}
+SpouseLastName = {"L1" : (1900, 4080)}
+SpouseCompanyBusinessName = {"L1" : (400, 4250)}
+SpousePosition = {"L1" : (1300, 4250)}
+BusinessAddSpouseLine1 = {"L1" : (450, 4400)}
+BusinessAddSpouseLine2 = {"L1" : (450, 4525)}
+BusinessPhoneSpouse = {"L1" : (400, 4770)}
+MobilePhoneSpouse = {"L1" : (950, 4770)}
+HomePhoneSpouse = {"L1" : (1500, 4770)}
+AnnualIncome = {"L1" : (2000, 4770)}
+EmploymentSEMP = {"L1" : (2625, 1150)}
+EmploymentGOVT = {"L1" : (3050, 1150)}
+EmploymentPrivate = {"L1" : (2625, 1240)}
+YearsOfEmploymentOrBusinessPresent = {"L1" : (3700, 1250)}
+TotalYearsOfWorking = {"L1" : (4400, 1250)}
+PositionSeniorOff = { "L1" : (2600, 1600)}
+PositionOwner = { "L1" : (3400, 1540)}
+PositionDirector = { "L1" : (3400, 1460)}
+PositionPresident = { "L1" : (3400, 1400)}
+PositionTitle = { "L1" : (2700, 1800)}
+OccupationAdmin = { "L1" : (2600, 3200)}
+OccupationProfessional = { "L1" : (3450, 3275)}
+OccupationSEMP = { "L1" : (3450, 3430)}
+CompanyOrBusinessName = { "L1" : (2650, 3600)}
+BusinessAddressLine1 = { "L1" : (2650, 3750)}
+BusinessAddressLine2 = { "L1" : (2650, 3900)}
+BusinessPhone = { "L1" : (2650, 4150)}
+HrEmail = { "L1" : (3400, 4150)}
+GrossAnnualIncome = { "L1" : (4100, 4150)}
+SourceOfFundSalary = { "L1" : (2620, 4340)}
+SourceOfFundBusiness = { "L1" : (2620, 4470)}
+IsExistingClientOfEastWestYes = {"L1" : (3400, 4340)}
+IsExistingClientOfEastWestNo = {"L1" : (3400, 4340)}
+IfYesDeposit = {"L1" : (2800, 4630)}
+IfYesCreditCard = {"L1" : (3070, 4630)}
+IsExistingEWCreditCardHolderYes = {"L1" : (3980, 4730)}
+IsExistingEWCreditCardHolderNo = {"L1" : (4330, 4730)}
+CardIssuer = {"L1" : (3980, 4830)}
+CardNumber = {}
+MemberSince = {}
 CreditLimit = {
 }
 Ref1FullName = {
