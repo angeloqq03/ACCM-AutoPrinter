@@ -7,6 +7,7 @@ import io
 import os
 import win32print
 import win32ui
+import sys
 import win32con
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
@@ -28,7 +29,9 @@ from PrintControlWindow import PrintControlWindow
 class LegalFormApp:
     def load_sheet_id(self):
         try:
-            with open('sheet_id.txt', 'r') as f:
+            base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+            sheet_id_path = os.path.join(base_path, 'sheet_id.txt')
+            with open(sheet_id_path, 'r') as f:
                 sheet_id = f.read().strip()
                 if not sheet_id:
                     raise ValueError("Sheet ID not found in sheet_id.txt")
